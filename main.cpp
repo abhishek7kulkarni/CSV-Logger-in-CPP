@@ -1,10 +1,8 @@
 #include "CSVLogger.h"
-//#include <iostream>
 
 int main() {
-	//std::cout << "!!!Hello World!!!" << std::endl;
 
-	CSVLogger logfile("logfile.csv"); // open file (acquire resource)
+	CSVLogger logfile("logfile");
 	logfile << "hello";
 	logfile << "hi" << std::endl;
 
